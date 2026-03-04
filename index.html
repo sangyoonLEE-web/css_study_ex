@@ -1,11 +1,86 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>document</title>
+    <style>
+      h1 {
+        color: #00f; /* 16진수 표기법 */
+        text-align: center;
+        /* text-shadow:가로거리 세로거리 번짐정도 색상 ; */
+        text-shadow: 2px 2px 1px #333;
+        letter-spacing: 10px; /* 글자간격 */
+      }
+      h2 {
+        color: pink;
+        text-shadow: 7px -7px 20px #000;
+      }
+      p {
+        color: green; /* 색상이름 표기법 */
+        text-align: right;
+        line-height: 200%; /* 줄간격 */
+        /* line-height: 2,0;  */
+      }
+
+      span {
+        color: rgb(255, 0, 0); /* rgb 표기법 */
+        font-weight: 900;
+        font-weight: bold;
+      }
+
+      .hanra {
+        color: orangered;
+        font-weight: 400;
+      }
+
+      .orange {
+        color: blueviolet;
+      }
+      .a {
+        color: yellow;
+      }
+      .b {
+        color: blue;
+      }
+      em {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 8);
+      }
+      .ptext {
+        text-align: center;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        text-align: center;
+        line-height: 200px; /* 글자의 높이 */
+      }
+      .box2 {
+        width: 100px;
+        height: 100px;
+        background-color: bisque;
+        text-align: center;
+        line-height: 100px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>레드향</h1>
+    <p class="ptext">껍질에 붉은 빛이 돌아 <span>레드향</span> 이라 불린다</p>
+    <p class="a">
+      레드향은 <span class="hanra">한라봉과 </span>
+      <span class="orange">귤을</span> 교배한 것으로
+    </p>
+    <p class="b">일반 귤보다 2~3배 크고, <em>붉고 통통하다</em> 과육이</p>
+    <!-- 박스 안에 글자 중간 정렬 -->
+    <div class="box">박스 -1</div>
+    <div class="box2">박스 -2</div>
+    <a href="https://www.google.com/">구글로이동</a>
+  </body>
 </html>
