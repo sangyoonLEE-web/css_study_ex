@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+.flex-container {
+  /* width: 600px; */
+  width: 60%;
+  background-color: antiquewhite;
+  margin: 100px auto;
+  padding: 10px;
+}
+.flex-container ul {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  flex-wrap: wrap;
+
+  gap: 10px;
+  background-color: aquamarine;
+}
+.flex-container ul li {
+  /* width: calc((100% / 4 ) - 30px ); */
+  width: calc((100% - 30px) / 4);
+  /* flex: 1; */
+  padding: 10px;
+  background-color: blueviolet;
+  color: #fff;
+  text-align: center;
+  /* margin-right: 10px; */
+}
+
+
+/* 이미지 레이아웃 */
+.img-container{
+    /* 부모에게 flex, gap 배열되고 */
+    display: flex;
+    gap: 40px;
+    width: 700px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.asd{
+    padding: 20px;
+    width: 1000px;
+    background-color: darksalmon;
+    margin: 50px auto;
+}
+.asd h1{
+border-bottom: 2px solid #333;
+
+}
+.img-container1{
+    width: 600px;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.img-container1 img{
+    width: 200px;
+}
+
+.img-container1 p{
+    width: 200px;
+    background-color: white;
+}
+
+/* 혼자연습해보기 */
+
+.zxc{
+    background-color: blue;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+.img-container3{
+   display: flex;
+   gap: 40px;
+   margin: 20px auto;
+   width: 600px;
+}
+
+.img-container3 img{
+    width: 200px;
+}
+
+.img-container3 p{
+    width: 200px;
+    background-color: #fff;
+}

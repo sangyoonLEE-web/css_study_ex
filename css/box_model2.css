@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 10px;
+    border-bottom: 3px solid #333;
+}
+
+p{
+    border-style: dashed;
+    border-color: blue;
+    padding: 10px;
+    margin: 10px;
+
+}
+div{
+    padding: 10px;
+    text-align: center;
+}

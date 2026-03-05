@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+nav {
+  background-color: rgb(185, 1, 124);
+  width: 500px;
+  padding: 10px;
+  margin: 100px auto;
+}
+ul {
+  /* 너비는 부모따라감. */
+  /* background-color: aqua; */
+}
+
+/* li의 너비 균일 등분하여 옆으로 나열하기. */
+li {
+  display: inline;
+  background-color: aquamarine;
+  width: calc(100% / 4 -4px);
+  text-align: center;
+}
+
+.img-content{
+    width: 500px;
+    margin: 50px auto;
+    background-color: aliceblue;
+
+}
+.img-content p {
+    width: 400px;
+  display: inline-block;
+}
+
+.img-content img {
+  display: inline-block;
+}

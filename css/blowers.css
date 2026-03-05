@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* div 외부스타일 */
+.contain {
+  background-color: lightcoral;
+  width: 600px;
+  margin: 50px auto;
+ padding: 20px;
+    text-align: center;
+
+}
+
+.contain2{
+    background-color: white;
+    /* width: 500px; */
+
+     display: flex;
+align-items: center;
+}
+
+.contain2 p {
+  background-color: white;
+  width: 200px;
+  margin: 10px auto;
+  
+}
+
+.contain2 img {
+  background-color: white;
+  width: 200px;
+  margin: 10px auto;
+}
