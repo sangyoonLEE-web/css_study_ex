@@ -1,0 +1,44 @@
+/* 우선순위. */
+*{
+  padding: 0;  
+  margin: 0;
+ box-sizing: border-box;
+}
+
+
+.menu-1{
+    /* list-style-type: none; */
+    /* list-style-type: circle; */
+    /* list-style-image: url(../imeges/google.png); */
+    background-color: aliceblue;
+}
+li{
+    /* list-style-type: none; */
+   
+    list-style-type: none;
+}
+/* ul안에있는 li */ 
+/* 패딩,마진,보더 개념 */
+.menu-1 li{
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    /* margin: 10px; */
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.menu-2{
+    width: 100px;
+    background-color: aqua;
+    padding: 10px;
+}
+.menu-2 li{
+    border: 1px solid #333 ;
+    padding: 10px;
+    margin-bottom: 10px;   
+}
+.menu-2 li:last-child{
+    margin: 0px;
+}
